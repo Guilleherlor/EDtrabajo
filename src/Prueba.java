@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+/**
+ * Clase Primo
+ *
+ * Contiene la comprobacion de si un numero es Primo
+ *
+ * @author Guillermo
+ * @version 1.0
+ */
 
 
 public class Prueba {
@@ -26,11 +34,11 @@ public class Prueba {
 			}
 			
 			if (esPrimo)
-				System.out.println("El número "+n+" es primo");
+				System.out.println("El nÃºmero "+n+" es primo");
 			else
-				System.out.println("El número "+n+" no es primo");
+				System.out.println("El nÃºmero "+n+" no es primo");
 			
-			System.out.println("Escribe un número");
+			System.out.println("Escribe un nÃºmero");
 			n = sc.nextInt();
 		}
 	}
